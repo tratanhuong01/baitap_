@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IPHONE 11 PRO MAX</title>
+	<link rel="stylesheet" type="text/css" href="/css/baitap3.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0\css\font-awesome.min.css">
+</head>
+<body>
+	<div id="full">
+		<div id="header">
+			<div id="time">
+				<b>08:59</b>
+			</div>
+			<div id="black">
+				
+			</div>
+			<div id="pin">
+				<i class="fa fa-wifi" aria-hidden="true"></i>
+				<i class="fa fa-battery-full" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div id="main">
+			<div id="facetime">
+				<img src="images\facetime.png"><br>
+				<b>&nbsp;Facetime</b>
+			</div>
+			<div id="celendar">
+				<img src="images\celendar.png"><br>
+				<b>&nbsp;Calendar</b>
+			</div>
+			<div id="photo">
+				<img src="images\photo.png"><br>
+				<b>&nbsp;&nbsp;&nbsp;Photos</b>
+			</div>
+			<div id="camera">
+				<img src="images\camera.png"><br>
+				<b>&nbsp;Camera</b>
+			</div>	
+		</div>
+		<div id="main2">
+			<div id="mail">
+				<img src="images\mail.png">
+				<b>&nbsp;&nbsp;&nbsp;&nbsp;Mail</b>
+			</div>
+			<div id="clock">
+				<img src="images\clock.png"><br>
+				<b>&nbsp;&nbsp;&nbsp;Clock</b>
+			</div>
+			<div id="map">
+				<img src="images\map.png"><br>
+				<b>&nbsp;&nbsp;&nbsp;&nbsp;Maps</b>
+			</div>
+			<div id="weather">
+				<img src="images\weather.png"><br>
+				<b>&nbsp;Weather</b>
+			</div>
+		</div>
+		<div id="main3">
+			<div id="reminder">
+				<img src="images\reminder.png">
+				<b>&nbsp;Reminder</b>
+			</div>
+			<div id="note">
+				<img src="images\note.png"><br>
+				<b>&nbsp;&nbsp;&nbsp;Notes</b>
+			</div>
+			<div id="stock">
+				<img src="images\stock.png"><br>
+				<b>&nbsp;&nbsp;&nbsp;Stocks</b>
+			</div>
+			<div id="new">
+				<img src="images\new.png"><br>
+				<b>&nbsp;&nbsp;&nbsp;&nbsp;News</b>
+			</div>
+		</div>
+	</div>
+	<script src="/js/loc-tin-nhan.js"></script>
+	<script>
+		var tin_nhan = 'toi dmun noi la fuck u to fuck lolmy fuckthlolo'
+		for (var i = 0; i < tin_nhan.length; i++) {
+			console.log(tin_nhan[i])
+		}
+
+
+		console.log(tin_nhan);
+		var ds_loc = ['fuck', 'dm', 'lol']
+		for (var i = 0; i < ds_loc.length; i++) {
+			tin_nhan = tin_nhan.replace(new RegExp(ds_loc[i], 'g'), doiDauSao(ds_loc[i]))
+		}
+		console.log(tin_nhan);
+		console.log(doiDauSao(''));
+
+		function doiDauSao(str) {
+			const doDai = str.length;
+			if (doDai == 0) {
+				return ''
+			}
+			var kq = '*'
+			for(var i = 2; i <= doDai; i++) {
+				kq = kq + '*'
+			}
+			return kq
+		}
+
+
+
+	</script>
+</body>
+</html>

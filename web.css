@@ -1,0 +1,10 @@
+body {
+	margin: 0;
+	padding: 0
+}
+#web {
+	width: 1200px;
+	height: 800px;
+	margin: auto;
+	border: 1px solid black;
+}

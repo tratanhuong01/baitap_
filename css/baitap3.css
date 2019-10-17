@@ -1,0 +1,169 @@
+body {
+	margin: 0;
+	padding:0;
+}
+#full {
+	width: 360px;
+	height: 700px;
+	margin: auto;
+	border-radius: 40px;
+	border: 20px solid #000000;
+	box-sizing: border-box;
+	background-image: url('/images/wallpaper.png');
+	color: white; 
+}
+#header {
+	display: flex;
+}
+#time {
+	width: 30px;
+	margin:10px 0px 0px 20px;
+}
+#black {
+	width: 160px;
+	height: 32px;
+	background-color: black;
+	margin: 0px 0px 0px 30px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+#pin {
+	margin-top: 8px;
+	margin-left: 30px;
+}
+#pin i {
+	color: white;
+}
+#main {
+	display: flex;
+	font-size: 12px;
+}
+#facetime {
+	width: 50px;
+	height: 50px;
+	margin: 40px 30px 30px 20px;
+}
+#facetime img {
+	width: 50px;
+	height: 50px;
+	border-radius: 13px;
+
+}
+#celendar {
+	width: 50px;
+	height: 50px;
+	margin: 40px 30px 30px 0px;
+}
+#celendar img {
+	width: 50px;
+	height: 50px;
+	border-radius: 13px;
+}
+#photo {
+	width: 50px;
+	height: 50px;
+	margin: 40px 30px 30px 0px;
+}
+#photo img {
+	width: 50px;
+	height: 50px;
+	border-radius: 13px;
+}
+#camera {
+	width: 50px;
+	height: 50px;
+	margin: 40px 30px 30px 0px;
+}
+#camera img {
+	width: 50px;
+	height: 50px;
+	border-radius: 13px;
+}
+#main2 {
+	font-size: 12px;
+	display: flex;
+}
+#mail {
+	width: 50px;
+	height: 50px;
+	margin: 0px 0px 30px 20px;
+}
+#mail img {
+	width: 50px;
+	height: 50px;
+	border-radius: 13px;
+}
+#clock {
+	width: 50px;
+	height: 50px;
+	margin: 0px 0px 30px 30px;
+}
+#clock img {
+	width: 50px;
+	height: 50px;
+	border-radius: 13px;
+}
+#map {
+	width: 50px;
+	height: 50px;
+	margin: 0px 0px 30px 30px;
+}
+#map img {
+	width: 50px;
+	height: 50px;
+	border-radius: 13px;
+}
+#weather {
+	width: 50px;
+	height: 50px;
+	margin: 0px 0px 30px 30px;
+}
+#weather img {
+	width: 50px;
+	height: 50px;
+	border-radius: 13px;
+}
+#main3 {
+	font-size: 12px;
+	display: flex;
+}
+#reminder {
+	width: 50px;
+	height: 50px;
+	margin: 0px 0px 30px 20px;
+}
+#reminder img {
+	width: 50px;
+	height: 50px;
+	border-radius: 13px;
+}
+#note {
+	width: 50px;
+	height: 50px;
+	margin: 0px 0px 30px 30px;
+}
+#note img {
+	width: 50px;
+	height: 50px;
+	border-radius: 13px;
+}
+#stock {
+	width: 50px;
+	height: 50px;
+	margin: 0px 0px 30px 30px;
+}
+#stock img {
+	width: 50px;
+	height: 50px;
+	border-radius: 13px;
+}
+#new {
+	width: 50px;
+	height: 50px;
+	margin: 0px 0px 30px 30px;
+}
+#new img {
+	width: 50px;
+	height: 50px;
+	border-radius: 13px;
+}
